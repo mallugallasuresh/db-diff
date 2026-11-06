@@ -1,0 +1,43 @@
+{
+  "name": "developer/db-diff",
+  "description": "A fast, zero-dependency schema comparison engine and automated DDL migration generator for MySQL & MariaDB.",
+  "type": "project",
+  "keywords": [
+    "db-diff",
+    "dbdiff",
+    "mysql",
+    "mariadb",
+    "database-diff",
+    "schema-diff",
+    "ddl-generator",
+    "migration",
+    "database-sync",
+    "php"
+  ],
+  "homepage": "https://github.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Database Engineer & Full Stack Developer",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4 || >=8.0",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "comparator.class.php"
+    ]
+  },
+  "scripts": {
+    "serve": "php -S 0.0.0.0:8000 index.php"
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

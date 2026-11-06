@@ -1,0 +1,30 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment and Credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# Logs and Dumps
+*.log
+*.sql
+*.dump
+logs/
+temp/
+tmp/
